@@ -15,8 +15,7 @@ loophunds
 
 	ADDS R2, #1
 	SUBS R1, #100
-	CMP R1, #100
-	BHI loophunds
+	B loophunds
 	
 looptens
 	CMP R1, #10
@@ -24,8 +23,7 @@ looptens
 	
 	ADDS R3, #1
 	SUBS R1, #10
-	CMP R1, #10
-	BHI looptens
+	B looptens
 	
 loopones
 	MOVS R4, R1
