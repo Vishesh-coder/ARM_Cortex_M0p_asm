@@ -14,7 +14,7 @@ subtract
 	MOVS R7, R3
 	
 	BCS twoscomp
-stop B stop
+	B here
 	
 twoscomp
 	MVNS R6, R6
